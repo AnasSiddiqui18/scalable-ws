@@ -1,7 +1,7 @@
 import WebSocket, { WebSocketServer } from "ws";
 
 const wss = new WebSocketServer({
-    port: 8081,
+    port: 3001,
 });
 
 const servers: WebSocket[] = [];
